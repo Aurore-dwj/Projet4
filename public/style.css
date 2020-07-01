@@ -1,0 +1,77 @@
+
+p
+{
+	padding-left: 10px;
+}
+
+.news h3
+{
+	padding-left: 10px;
+}
+
+.btn-primary
+{
+	margin-left: 10px;
+	margin-bottom: -30px;
+}
+
+.news
+{
+	border: 1px solid grey;
+	box-shadow: 50px -5px teal; 
+	margin: 15px 15px 15px;
+	padding-top: 10px;
+}
+
+.news :hover
+{
+	color: teal;
+	cursor: pointer;
+}
+
+.form
+{
+	margin: 50px;
+}
+
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.login-form-2{
+    padding: 5%;
+    background: teal;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: teal;
+    background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+
