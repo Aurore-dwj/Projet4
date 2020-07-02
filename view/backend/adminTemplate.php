@@ -6,13 +6,14 @@
         <!-- CSS Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <!-- CSS -->
-        <link rel="stylesheet" href="public/style.css" media="screen" type="text/css" />  
+        <link rel="stylesheet" href="public/style.css" media="screen" type="text/css" /> 
+	<!-- TinyMCE --> 
         <script src="https://cdn.tiny.cloud/1/egfzxnhby255sulkdktca7r25b7odo0klpb5mdodh4r4mtza/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
         <script>tinymce.init({selector:'textarea'});</script>        
     </head>
         
     <body>
-
+	<!-- Bloc Header -->
         <div class="container">
             <header class="blog-header py-3">
                 <div class="row flex-nowrap justify-content-between align-items-center">
