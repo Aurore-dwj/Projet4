@@ -54,8 +54,8 @@ try {
     //Affiche l'interface de redaction de chapitre
     if (isset($_GET['action'])) { 
         if ($_GET['action'] == 'editoInterface') {
-            if(!isset($_SESSION['username'])){
-                listPosts();
+            if(!isset($_SESSION['username'])){//Si une session n'est pas en cours
+                listPosts();//Renvoi le visiteur à la page d'accueil 
             }else{
                 editoInterface(); 
             }
